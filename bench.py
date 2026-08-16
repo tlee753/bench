@@ -62,8 +62,8 @@ if __name__ == "__main__":
     parser.add_argument(
         "--iterations",
         type=int,
-        default=40,
-        help="Number of workload chunks to execute (default: 40)",
+        default=200,
+        help="Number of workload chunks to execute (default: 200)",
     )
 
     args = parser.parse_args()
